@@ -29,12 +29,20 @@
 </head>
 <body>
     
-    <section class="bg-[#F2F5F8] pl-5 pr-5 pt-3">
-        
-            <nav class="flex justify-between pb-10">
-                <img src="./images/logo.png" class="w-28">
-                <span class="">&#9776;</span>
-                <button class="border-black border-[1px] rounded-md p-1">Request a Free Demo</button>
+    <section class="">
+      <div class="bg-[#F2F5F8] pl-5 pr-5 pt-3 md:pl-20 md:pr-20">
+            <nav class="flex justify-between pb-10 md:pt-6">
+                <img src="./images/logo.png" class="w-28 md:w-40" id="logo">
+                <div class="cursor-pointer font-bold text-md hidden md:flex md:pt-3 md:ml-36" id="menu">
+                  <h1 onclick="homeClick()" class="hover:text-green-600 md:mr-10">Home</h1>
+                  <h1 onclick="aboutClick()" class="hover:text-green-600 md:mr-10">About</h1>
+                  <h1 onclick="serviceClick()" class="hover:text-green-600 md:mr-10">Service</h1>
+                  <h1 onclick="blogClick()" class="hover:text-green-600 md:mr-10">Blog</h1>
+                  <h1 onclick="contactClick()" class="hover:text-green-600">Contact</h1>
+                </div>
+                <span class="md:hidden" onclick="menuView()" id="harm">&#9776;</span>
+                <span onclick="cancelView()" class="hidden" id="ex">&#10007;</span>
+                <button id="butt" class="border-black border-[1px] rounded-md text-sm font-bold ps-2 pe-2 hover:bg-black hover:text-white md:w-44">Request a Free Demo</button>
             </nav>
         <div class="md:flex">
             <div class="md:hidden">
@@ -46,25 +54,35 @@
                     <p>5 Stars</p>
                 </div>
             </div>
-            <div class="text-center pt-10">
-                <h1 class="text-[35px] font-bold">Secure <span class="text-[#28D08A]">business</span> with Techty security.</h1>
+            <div class="text-center pt-10 md:mt-20 md:w-[40vw] md:text-start md:mr-10 xl:mt-10">
+                <h1 class="text-[35px] font-bold md:text-[49px] md:w-[40vw] xl:w-[39vw] xl:text-[52px]">Secure <span class="text-[#28D08A]">business</span> with Techty security.</h1>
                 <p>We have considered our solutions to support every stage of your growth. We are the fastest and easiest way to launch an attractive and feature-complete SaaS showcase.</p>
                 <div class="flex pt-5">
-                    <button class="bg-[#28D08A] text-white text-sm p-3 rounded-lg ms-2">Request a Free Demo</button>
-                    <button class="ms-5 border-black border-[1px] text-sm p-3 rounded-lg w-36">Hire an Expert</button>
+                    <button class="bg-[#28D08A] text-white text-sm p-3 rounded-lg ms-2 md:ms-0">Request a Free Demo</button>
+                    <button class="ms-5 border-black border-[1px] text-sm p-3 rounded-lg w-36 hover:bg-black hover:text-white">Hire an Expert</button>
                 </div>
             </div>
-            <div class="hidden md:block">
+            <div class="hidden md:block md:w-[48vw] md:mt-20 md:ml-20 xl:mt-10 xl:ml-24">
                 <img src="./images/hero image.png" class="pb-2">
-                <div class="flex justify-between">
-                    <img src="./images/trustpilot_logo.svg.png" class="w-24">
-                    <img src="./images/stars.png" class="w-28">
+                <div class="flex justify-between md:w-[35vw]">
+                    <img src="./images/trustpilot_logo.svg.png" class="w-24 md:w-28">
+                    <img src="./images/stars.png" class="w-28 md:w-[10vw]">
                     <p>4900+</p>
                     <p>5 Stars</p>
                 </div>
             </div>
-
         </div>
+        <div class="border-gray-400 border-[1px] mt-10 mb-10 md:mt-14 md:mb-14"></div>
+        <div class="md:flex">
+          <h1 class="text-md font-bold text-center pb-3 md:text-xl md:w-[18vw] md:text-start">Thousands of businesses use Techty.</h1>
+            <div class="grid grid-cols-2 gap-2 ps-9 md:flex md:ps-0 md:ms-16 md:mt-2">
+              <img src="./images/Logoipsum blue.png" class="w-28 md:w-40 xl:w-44 md:h-10">
+              <img src="./images/Logoipsum white.png" class="w-28 md:w-40 xl:w-44 md:ms-6 md:h-10">
+              <img src="./images/Logoipsum black.png" class="w-28 md:w-40 xl:w-44 md:ms-6 md:h-10">
+              <img src="./images/Logoipsum green.png" class="w-28 md:w-40 xl:w-44 md:ms-6 md:h-10">
+            </div>
+        </div>
+      </div>
     </section>
 
 <script src="./script.js"></script>
