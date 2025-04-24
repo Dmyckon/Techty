@@ -29,7 +29,7 @@
 </head>
 <body class="cursor-pointer">
     
-    <section class="">
+    <section id="Home" class="hidden">
       <div class="bg-[#F2F5F8] pl-5 pr-5 pt-3 md:pl-20 md:pr-20">
             <nav class="flex justify-between pb-10 md:pt-6">
                 <img src="./images/logo.png" class="w-28 md:w-40" id="logo">
@@ -44,6 +44,7 @@
                 <span onclick="cancelView()" class="hidden" id="ex">&#10007;</span>
                 <button id="butt" class="border-black border-[1px] rounded-md text-sm font-bold ps-2 pe-2 hover:bg-black hover:text-white md:w-44">Request a Free Demo</button>
             </nav>
+
         <div class="md:flex">
             <div class="md:hidden">
                 <img src="./images/hero image.png" class="pb-2">
@@ -347,8 +348,124 @@
     </section>
 
     
-    <section>
+    <section id="about" class="">
+      <div class="bg-[#F2F5F8] pl-5 pr-5 pt-3 pb-10 text-center md:text-start md:pb-20 md:pl-20 md:pr-20">
+        <nav class="flex justify-between pb-10 md:pt-6">
+            <img src="./images/logo.png" class="w-28 md:w-40" id="logo2">
+            <div class="cursor-pointer font-bold text-md hidden md:flex md:pt-3 md:ml-36" id="menu2">
+              <h1 onclick="homeClick()" class="hover:text-green-600 md:mr-10">Home</h1>
+              <h1 onclick="aboutClick()" class="hover:text-green-600 md:mr-10">About</h1>
+              <h1 onclick="serviceClick()" class="hover:text-green-600 md:mr-10">Service</h1>
+              <h1 onclick="blogClick()" class="hover:text-green-600 md:mr-10">Blog</h1>
+              <h1 onclick="contactClick()" class="hover:text-green-600">Contact</h1>
+            </div>
+            <span class="md:hidden" onclick="menuView2()" id="harm2">&#9776;</span>
+            <span onclick="cancelView2()" class="hidden" id="ex2">&#10007;</span>
+            <button id="butt2" class="border-black border-[1px] rounded-md text-sm font-bold ps-2 pe-2 hover:bg-black hover:text-white md:w-44">Request a Free Demo</button>
+        </nav>
+        <div class="md:mt-16 md:flex">
+          <div>
+            <img src="./images/about hero img.png" class="md:pr-[20%]">
+          </div>
+          <div class="pt-5 md:pt-0 md:w-[45vw]">
+            <h1 class="text-[25px] font-bold pb-2 md:text-[45px]"><span class="text-[#28D08A]">About</span> Techty</h1>
+            <p class="text-[13px] text-gray-600 md:mb-6">We're constantly pushing the boundaries of what's possible and seeking new ways to improve our services and help our clients achieve their goals.</p>
+            <h1 class="text-lg font-bold pt-3 pb-2 md:text-[25px]">Vision</h1>
+            <p class="text-[13px] text-gray-600 md:mb-6">Our vision is to create a better financial future for everyone. We believe that everyone deserves access to financial services and resources that empower them to achieve their goals.</p>
+            <h1 class="text-lg font-bold pt-3 pb-2 md:text-[25px]">Mission</h1>
+            <p class="text-[13px] text-gray-600">We're on a mission to empower people to take control of their finances and achieve their goals. We believe that everyone should have access to the tools and resources they have and make smart financial decisions.</p>
+          </div>
+        </div>
+      </div>
 
+      <div class="pl-5 pr-5 pt-10 pb-10 text-center md:text-start md:pl-20 md:pr-20 md:pt-12 md:pb-14 md:flex">
+        <div class="md:hidden">
+          <img src="./images/message founder.png">
+        </div>
+        <div class="md:w-[55vw] md:mt-3 xl:w-[45vw]">
+          <h1 class="text-[25px] font-bold mt-5 mb-3 md:text-[45px]">Message from <span class="text-[#28D08A]">founder</span></h1>
+          <p class="text-[13px] text-gray-600 mb-4 md:mb-5">I would like to take a moment to express my sincere gratitude for choosing our IT services. As the founder of this company, I am proud to say that we are committed to providing the best possible solutions for your business needs.</p>
+          <p class="text-[13px] text-gray-600 mb-4 md:mb-5">We understand the challenges that come with managing an enterprise in the digital age, and we are dedicated to delivering innovative and reliable IT services to help you navigate these challenges with ease.</p>
+          <p class="text-[13px] text-gray-600 mb-4 md:mb-5">Our team of experts is constantly working to improve our services and stay up-to-date with the latest technological advancements. We strive to provide personalized solutions that cater to your specific requirements, ensuring that your business operations run smoothly and efficiently.</p>
+          <h1 class="font-bold">Pedro Huard</h1>
+          <p class="text-[13px] text-gray-600">Founder, CEO</p>
+        </div>
+        <div class="hidden md:block">
+          <img src="./images/message founder.png" class="md:ps-28 xl:h-[85vh] xl:w-[50vw]">
+        </div>
+      </div>
+      <div class="border-gray-400 border-[1px] mb-10 md:mt-5 md:mb-16"></div>
+
+      <div class="text-center pl-5 pr-5 pb-10 md:pl-20 md:pr-20 md:pb-20">
+        <h1 class="text-[25px] font-bold pb-5 md:text-[44px] md:mb-8 md:w-[40vw] md:ml-[27%]">Our <span class="text-[#28D08A]">team</span> behind all the success we have</h1>
+        <div class="md:text-start md:grid grid-cols-4 gap-5">
+          <div id="image1">
+            <img src="./images/Portrait young man with green hoodie.png" class="bg-[#CCCCCC] rounded-[20px] ml-5 md:ml-0">
+            <h1 class="font-bold">Pedro Huard</h1>
+            <p class="text-[13px] text-gray-600">Founder, CEO</p>
+          </div>
+          <div id="image2" class="hidden md:block">
+            <img src="./images/Portrait young man with green hoodie.png" class="bg-[#CCCCCC] rounded-[20px] ml-5  md:ml-0">
+            <h1 class="font-bold">Pedro Huard</h1>
+            <p class="text-[13px] text-gray-600">Founder, CEO</p>
+          </div>
+          <div id="image3" class="hidden md:block">
+            <img src="./images/Portrait young man with green hoodie.png" class="bg-[#CCCCCC] rounded-[20px] ml-5  md:ml-0">
+            <h1 class="font-bold">Pedro Huard</h1>
+            <p class="text-[13px] text-gray-600">Founder, CEO</p>
+          </div>
+          <div id="image4" class="hidden md:block">
+            <img src="./images/Portrait young man with green hoodie.png" class="bg-[#CCCCCC] rounded-[20px] ml-5  md:ml-0">
+            <h1 class="font-bold">Pedro Huard</h1>
+            <p class="text-[13px] text-gray-600">Founder, CEO</p>
+          </div>
+        </div>
+        <div class="flex border-gray-400 border-[1px] bg-[#CCCCCC] justify-evenly ml-28 mr-28 p-2 rounded-[20px] mt-5 md:hidden">
+          <img src="./images/icon-prev.svg" class="w-4" onclick="prevClick2()">
+          <img src="./images/icon-next.svg" class="w-4" onclick="nextClick2()">
+         </div>
+      </div>
+
+      <div class="bg-[#495460] text-white pl-5 pr-5 pt-10 pb-12 text-center md:text-start md:pl-20 md:pr-20 md:pt-12 md:pb-14">
+        <div class="md:flex md:justify-between">
+          <h1 class="text-[25px] font-bold md:text-[40px] pb-5 md:w-[45vw]">Ready to take your business to the next level?</h1>
+          <button class="bg-[#28D08A] text-white text-sm p-3 rounded-lg mt-4 md:ml-0 md:h-12">Request a Free Demo</button>
+        </div>
+        <div class="border-gray-400 border-[1px] mt-10 mb-10 md:mt-14 md:mb-14"></div>
+        <div class="md:flex md:justify-between">
+          <div>
+            <img src="./images/logowhite.png" class="mb-12 ml-20 md:ml-0">
+            <div class="flex ml-28 mb-3 md:ml-0">
+              <img src="./images/xtwit.png">
+              <img src="./images/face.png" class="ml-1">
+              <img src="./images/insta.png" class="ml-2">
+              <img src="./images/gitlogo.png" class="ml-2">
+            </div>
+            <p class="text-sm w-44 ml-20 mb-6 md:ml-0">Copyright © 2023 Techty. All Rights Reserved</p>
+          </div>
+          <div>
+            <h1 class="font-bold mb-3">Quick Links</h1>
+            <p class="text-sm">About</p>
+            <p class="text-sm mt-2">Services</p>
+            <p class="text-sm mt-2">Blog</p>
+            <p class="text-sm mt-2">Contact</p>
+          </div>
+          <div>
+            <h1 class="font-bold mb-3 mt-6 md:mt-0">Socials</h1>
+            <p class="text-sm">Twitter</p>
+            <p class="text-sm mt-2">LinkedIn</p>
+            <p class="text-sm mt-2">Facebook</p>
+          </div>
+          <div>
+            <h1 class="font-bold mb-3 mt-6 md:mt-0">Our Newsletter</h1>
+            <p class="text-sm w-60 ml-12 md:ml-0">Subscribe to our newsletter to get our news delivered to you.</p>
+            <div class="border-white border-2 rounded-lg mt-7">
+              <input placeholder="Email Address" class="p-2 bg-transparent">
+              <button class="bg-[#28D08A] text-white text-sm p-3 rounded-lg ml-[70px] md:ml-0">Join</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
 <script src="./script.js"></script>
