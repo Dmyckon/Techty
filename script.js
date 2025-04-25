@@ -32,6 +32,54 @@ function cancelView2() {
     document.getElementById("ex2").style.display = "none"
 }
 
+function menuView3() {
+    document.getElementById("menu3").style.display = "block"
+    document.getElementById("logo3").style.display = "none"
+    document.getElementById("butt3").style.display = "none"
+    document.getElementById("harm3").style.display = "none"
+    document.getElementById("ex3").style.display = "block"
+}
+
+function cancelView3() {
+    document.getElementById("menu3").style.display = "none"
+    document.getElementById("logo3").style.display = "block"
+    document.getElementById("butt3").style.display = "block"
+    document.getElementById("harm3").style.display = "block"
+    document.getElementById("ex3").style.display = "none"
+}
+
+function menuView4() {
+    document.getElementById("menu4").style.display = "block"
+    document.getElementById("logo4").style.display = "none"
+    document.getElementById("butt4").style.display = "none"
+    document.getElementById("harm4").style.display = "none"
+    document.getElementById("ex4").style.display = "block"
+}
+
+function cancelView4() {
+    document.getElementById("menu4").style.display = "none"
+    document.getElementById("logo4").style.display = "block"
+    document.getElementById("butt4").style.display = "block"
+    document.getElementById("harm4").style.display = "block"
+    document.getElementById("ex4").style.display = "none"
+}
+
+function menuView5() {
+    document.getElementById("menu5").style.display = "block"
+    document.getElementById("logo5").style.display = "none"
+    document.getElementById("butt5").style.display = "none"
+    document.getElementById("harm5").style.display = "none"
+    document.getElementById("ex5").style.display = "block"
+}
+
+function cancelView5() {
+    document.getElementById("menu5").style.display = "none"
+    document.getElementById("logo5").style.display = "block"
+    document.getElementById("butt5").style.display = "block"
+    document.getElementById("harm5").style.display = "block"
+    document.getElementById("ex5").style.display = "none"
+}
+
 
 var testimony = [document.getElementById("one").innerHTML, document.getElementById("two").innerHTML, document.getElementById("three").innerHTML, document.getElementById("four").innerHTML, document.getElementById("five").innerHTML, document.getElementById("six").innerHTML
 ]
@@ -73,3 +121,38 @@ function prevClick2() {
     document.getElementById("image1").innerHTML = team[index]
 }
 
+function homeClick() {
+    document.getElementById("home").style.display = "block"
+    document.getElementById("about").style.display = "none"
+    document.getElementById("service").style.display = "none"
+    document.getElementById("blog").style.display = "none"
+    document.getElementById("contact").style.display = "none"
+}
+function aboutClick() {
+    document.getElementById("home").style.display = "none"
+    document.getElementById("about").style.display = "block"
+    document.getElementById("service").style.display = "none"
+    document.getElementById("blog").style.display = "none"
+    document.getElementById("contact").style.display = "none"
+}
+function serviceClick() {
+    document.getElementById("home").style.display = "none"
+    document.getElementById("about").style.display = "none"
+    document.getElementById("service").style.display = "block"
+    document.getElementById("blog").style.display = "none"
+    document.getElementById("contact").style.display = "none"
+}
+function blogClick() {
+    document.getElementById("home").style.display = "none"
+    document.getElementById("about").style.display = "none"
+    document.getElementById("service").style.display = "none"
+    document.getElementById("blog").style.display = "block"
+    document.getElementById("contact").style.display = "none"
+}
+function contactClick() {
+    document.getElementById("home").style.display = "none"
+    document.getElementById("about").style.display = "none"
+    document.getElementById("service").style.display = "none"
+    document.getElementById("blog").style.display = "none"
+    document.getElementById("contact").style.display = "block"
+}
