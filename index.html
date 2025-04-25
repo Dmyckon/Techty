@@ -687,7 +687,7 @@
     </section>
 
 
-    <section id="blog" class="">
+    <section id="blog" class="hidden">
       <div class="bg-[#F2F5F8] pl-5 pr-5 pt-3 pb-10 text-center md:pb-20 md:pl-20 md:pr-20">
         <nav class="flex justify-between pb-10 md:pt-6">
             <img src="./images/logo.png" class="w-28 md:w-40" id="logo2">
@@ -802,8 +802,109 @@
     </section>
 
 
-    <section>
-      
+    <section id="contact" class="">
+      <div class="bg-[#F2F5F8] pl-5 pr-5 pt-3 pb-10 md:pl-20 md:pr-20">
+        <nav class="flex justify-between pb-10 md:pt-6">
+            <img src="./images/logo.png" class="w-28 md:w-40" id="logo">
+            <div class="cursor-pointer font-bold text-md hidden md:flex md:pt-3 md:ml-36" id="menu">
+              <h1 onclick="homeClick()" class="hover:text-green-600 md:mr-10">Home</h1>
+              <h1 onclick="aboutClick()" class="hover:text-green-600 md:mr-10">About</h1>
+              <h1 onclick="serviceClick()" class="hover:text-green-600 md:mr-10">Service</h1>
+              <h1 onclick="blogClick()" class="hover:text-green-600 md:mr-10">Blog</h1>
+              <h1 onclick="contactClick()" class="hover:text-green-600">Contact</h1>
+            </div>
+            <span class="md:hidden" onclick="menuView()" id="harm">&#9776;</span>
+            <span onclick="cancelView()" class="hidden" id="ex">&#10007;</span>
+            <button id="butt" class="border-black border-[1px] rounded-md text-sm font-bold ps-2 pe-2 hover:bg-black hover:text-white md:w-44">Request a Free Demo</button>
+        </nav>
+        <div>
+          <h1 class="text-center text-[25px] font-bold mb-3 md:text-[40px]">Contact Us</h1>
+          <p class="text-center text-sm text-gray-600 md:w-[40vw] md:ml-[26%]">We're constantly pushing the boundaries of what's possible and seeking new ways to improve our services.</p>
+          <div class="mt-10 md:flex md:justify-between md:mt-16">
+            <div>
+              <h1 class="font-bold text-[19px] md:w-[30vw]">We’re happy to discuss your project and answer any question</h1>
+              <div class="md:flex md:justify-between">
+              <div class="mt-6 md:mr-24">
+                <div class="flex">
+                  <img src="./images/telephone.png" class="mr-2 h-6">
+                  <p class="font-bold text-md mb-2">Toll Free Number</p>
+                </div>
+                <p class="text-sm text-gray-600 mb-5">+1 0123 456 789</p>
+                <div class="flex">
+                  <img src="./images/hour.png" class="mr-2 h-6">
+                  <p class="font-bold text-md mb-2">Working Hour</p>
+                </div>
+                <p class="text-sm text-gray-600 mb-5">Mon To Fri,
+                  9:00AM to 8:00PM</p>
+              </div>
+              <div class="md:mt-6">
+                <div class="flex">
+                  <img src="./images/mail.png" class="mr-2 h-6">
+                  <p class="font-bold text-md mb-2">Mail Address</p>
+                </div>
+                <p class="text-sm text-gray-600 mb-5">info@example.com</p>
+                <div class="flex">
+                  <img src="./images/address.png" class="mr-2 h-6">
+                  <p class="font-bold text-md mb-2">Office Address</p>
+                </div>
+                <p class="text-sm text-gray-600 mb-5 md:w-[20vw]">77408 Satterfield Motorway Suite 469 New York, USA.</p>
+              </div>
+              </div>
+            </div>
+            <div class="bg-white p-5 rounded-lg md:w-[35vw]">
+              <h1 class="font-bold text-[19px] mb-2">Send Us Message</h1>
+              <p class="text-sm text-gray-600 mb-5">Feel free to fill up the form and our team will get back to you within 24 hours.</p>
+              <div class="flex justify-between mb-5">
+                <input type="text" placeholder="Name" class="rounded-[13px] w-[15vw] border-[#F2F5F8] bg-[#F2F5F8]">
+                <input type="text" placeholder="Email" class="rounded-[13px] w-[15vw] border-[#F2F5F8] bg-[#F2F5F8]">
+              </div>
+              <input type="text" placeholder="Message" class="rounded-[13px] w-full pb-44 border-[#F2F5F8] bg-[#F2F5F8] md:w-[31.7vw]">
+              <button class="bg-[#28D08A] text-white text-sm p-3 rounded-lg  w-full mb-3 mt-4 md:w-[31.7vw]">Send Message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-[#495460] text-white pl-5 pr-5 pt-10 pb-12 text-center md:text-start md:pl-20 md:pr-20 md:pt-12 md:pb-14">
+        <div class="md:flex md:justify-between">
+          <h1 class="text-[25px] font-bold md:text-[40px] pb-5 md:w-[45vw]">Ready to take your business to the next level?</h1>
+          <button class="bg-[#28D08A] text-white text-sm p-3 rounded-lg mt-4 md:ml-0 md:h-12">Request a Free Demo</button>
+        </div>
+        <div class="border-gray-400 border-[1px] mt-10 mb-10 md:mt-14 md:mb-14"></div>
+        <div class="md:flex md:justify-between">
+          <div>
+            <img src="./images/logowhite.png" class="mb-12 ml-20 md:ml-0">
+            <div class="flex ml-28 mb-3 md:ml-0">
+              <img src="./images/xtwit.png">
+              <img src="./images/face.png" class="ml-1">
+              <img src="./images/insta.png" class="ml-2">
+              <img src="./images/gitlogo.png" class="ml-2">
+            </div>
+            <p class="text-sm w-44 ml-20 mb-6 md:ml-0">Copyright © 2023 Techty. All Rights Reserved</p>
+          </div>
+          <div>
+            <h1 class="font-bold mb-3">Quick Links</h1>
+            <p class="text-sm">About</p>
+            <p class="text-sm mt-2">Services</p>
+            <p class="text-sm mt-2">Blog</p>
+            <p class="text-sm mt-2">Contact</p>
+          </div>
+          <div>
+            <h1 class="font-bold mb-3 mt-6 md:mt-0">Socials</h1>
+            <p class="text-sm">Twitter</p>
+            <p class="text-sm mt-2">LinkedIn</p>
+            <p class="text-sm mt-2">Facebook</p>
+          </div>
+          <div>
+            <h1 class="font-bold mb-3 mt-6 md:mt-0">Our Newsletter</h1>
+            <p class="text-sm w-60 ml-12 md:ml-0">Subscribe to our newsletter to get our news delivered to you.</p>
+            <div class="border-white border-2 rounded-lg mt-7">
+              <input placeholder="Email Address" class="p-2 bg-transparent">
+              <button class="bg-[#28D08A] text-white text-sm p-3 rounded-lg ml-[70px] md:ml-0">Join</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
 <script src="./script.js"></script>
