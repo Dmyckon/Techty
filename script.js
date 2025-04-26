@@ -156,3 +156,23 @@ function contactClick() {
     document.getElementById("blog").style.display = "none"
     document.getElementById("contact").style.display = "block"
 }
+
+// function ideaView() {
+//     document.getElementById("ideas").style.display = "flex"
+//     document.getElementById("ideas3").style.color = "#28D08A"
+//     document.getElementById("ideas1").style.display = "flex"
+//     document.getElementById("ideas2").style.display = "block"
+
+
+// }
+// function dataView() {
+//     document.getElementById("data").style.display = "flex"
+//     document.getElementById("data1").style.display = "flex"
+//     document.getElementById("data2").style.display = "block"
+//     document.getElementById("data3").style.color = "#28D08A"
+
+//     document.getElementById("ideas").style.display = "none"
+//     document.getElementById("ideas3").style.color = "black"
+//     document.getElementById("ideas1").style.display = "none"
+//     document.getElementById("ideas2").style.display = "none"
+// }
