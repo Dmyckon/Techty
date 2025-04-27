@@ -127,6 +127,7 @@ function homeClick() {
     document.getElementById("service").style.display = "none"
     document.getElementById("blog").style.display = "none"
     document.getElementById("contact").style.display = "none"
+    document.getElementById("homegreen").style.color = "#28D08A"
 }
 function aboutClick() {
     document.getElementById("home").style.display = "none"
@@ -134,6 +135,7 @@ function aboutClick() {
     document.getElementById("service").style.display = "none"
     document.getElementById("blog").style.display = "none"
     document.getElementById("contact").style.display = "none"
+    document.getElementById("aboutgreen2").style.color = "#28D08A"
 }
 function serviceClick() {
     document.getElementById("home").style.display = "none"
@@ -141,6 +143,7 @@ function serviceClick() {
     document.getElementById("service").style.display = "block"
     document.getElementById("blog").style.display = "none"
     document.getElementById("contact").style.display = "none"
+    document.getElementById("servicegreen3").style.color = "#28D08A"
 }
 function blogClick() {
     document.getElementById("home").style.display = "none"
@@ -148,6 +151,7 @@ function blogClick() {
     document.getElementById("service").style.display = "none"
     document.getElementById("blog").style.display = "block"
     document.getElementById("contact").style.display = "none"
+    document.getElementById("bloggreen4").style.color = "#28D08A"
 }
 function contactClick() {
     document.getElementById("home").style.display = "none"
@@ -155,6 +159,7 @@ function contactClick() {
     document.getElementById("service").style.display = "none"
     document.getElementById("blog").style.display = "none"
     document.getElementById("contact").style.display = "block"
+    document.getElementById("contactgreen5").style.color = "#28D08A"
 }
 
 // function ideaView() {
