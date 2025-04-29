@@ -168,8 +168,12 @@ function contactClick() {
 //     document.getElementById("ideas1").style.display = "flex"
 //     document.getElementById("ideas2").style.display = "block"
 
-
+//     document.getElementById("data").style.display = "none"
+//     document.getElementById("data1").style.display = "none"
+//     document.getElementById("data2").style.display = "none"
+//     document.getElementById("data3").style.color = "#28D08A"
 // }
+
 // function dataView() {
 //     document.getElementById("data").style.display = "flex"
 //     document.getElementById("data1").style.display = "flex"
